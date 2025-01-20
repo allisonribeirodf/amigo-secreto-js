@@ -32,13 +32,13 @@ function adicionarAmigo() {
 
     let li = document.createElement('li');
     
-    // Adicionar ícone de remoção antes do nome
+  
     let removeImg = document.createElement('img');
     removeImg.src = 'assets/lixeira.png';
     removeImg.alt = 'Remover';
     removeImg.classList.add('remove-icon');
 
-    li.appendChild(removeImg);  // Coloca o ícone de remoção à esquerda do nome
+    li.appendChild(removeImg); 
     li.appendChild(document.createTextNode(inputAmigo.value));
 
     listaAmigos.appendChild(li);

@@ -4,7 +4,7 @@
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-text: #616060;
     --color-white: #FFFFFF;
 }
 
@@ -79,6 +79,14 @@ body {
     margin-top: 20px;
 }
 
+.error-message {
+    color: red;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .input-name {
     width: 100%;
     padding: 10px;
@@ -136,7 +144,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #1a1414;
     font-size: 22px;
     font-weight: bold;
     text-align: center;

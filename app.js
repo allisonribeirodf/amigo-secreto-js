@@ -10,7 +10,7 @@ function adicionarAmigo() {
         errorMessage.textContent = 'Por favor, insira um nome para adicionar à lista.';
         return;
     }
-
+ 
     if (inputAmigo.value.length < 3) {
         errorMessage.textContent = 'O nome deve ter pelo menos 3 caracteres.';
         return;

@@ -73,7 +73,7 @@ function sortearAmigo() {
     resultado.innerHTML = '';
 
     if (amigos.length === 0) {
-        alert('A lista de amigos está vazia. Adicione pelo menos um amigo para sortear!');
+        alert('A lista de amigos está vazia. Adicione pelo dois amigos para sortear!');
         return;
     }
 

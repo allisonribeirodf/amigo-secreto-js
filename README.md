@@ -1,6 +1,14 @@
 # Amigo Secreto  🎉
 
-Um projeto interativo para sorteio de "Amigo Secreto". Adicione amigos, organize a lista e realize o sorteio diretamente do navegador.
+Este projeto é um sorteador de nomes criado para facilitar a organização de um amigo secreto de forma prática e divertida. Com uma interface simples e intuitiva, você pode adicionar os participantes, gerenciar a lista e realizar o sorteio com apenas um clique. Basta inserir os nomes, clicar em “Sortear amigo”, e pronto! O sorteado será exibido com um toque de celebração especial para tornar o momento ainda mais emocionante. 🎉
+
+![image](https://github.com/user-attachments/assets/d2512cbd-ba31-4446-b7e2-dac7222dbdb4)
+
+
+
+## 🌐 Deploy
+🔗 
+
 
 ## ✨ Funcionalidades
 
@@ -12,10 +20,9 @@ Um projeto interativo para sorteio de "Amigo Secreto". Adicione amigos, organize
 
 ## 🛠 Tecnologias Utilizadas
 
-- **HTML5**: Estrutura do aplicativo.
-- **CSS3**: Estilização e layout.
-- **JavaScript**: Lógica do aplicativo, manipulação do DOM e sorteio.
-- **Biblioteca Confetti**: Efeito de confete ao sortear um amigo.
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 ## 🚀 Como Usar
 
@@ -29,14 +36,6 @@ Um projeto interativo para sorteio de "Amigo Secreto". Adicione amigos, organize
    cd amigo-secreto-js
    ```
 
-3. Abra o arquivo `index.html` em um navegador de sua escolha.
-
-4. ✏️ Adicione os nomes dos amigos no campo de entrada e clique em "Adicionar".
-
-5. 🔄 Após adicionar pelo menos dois amigos, clique no botão "Sortear" para realizar o sorteio.
-
-6. 🎉 O nome do amigo sorteado será exibido com uma animação de confete.
-
 ## 🔍 Validações Implementadas
 
 - **Campo vazio**: Impede a adição de nomes em branco.
@@ -45,4 +44,6 @@ Um projeto interativo para sorteio de "Amigo Secreto". Adicione amigos, organize
 - **Duplicidade**: Nomes já adicionados não podem ser repetidos.
 - **Quantidade mínima**: Sorteio só é permitido se houver pelo menos dois amigos na lista.
 
+## 👨‍💻 Desenvolvido por 
+ - Allison Ribeiro
 

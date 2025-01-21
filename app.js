@@ -33,7 +33,7 @@ function adicionarAmigo() {
 
     let li = document.createElement('li');
     let removeImg = document.createElement('img');
-    removeImg.src = 'assets/lixeira.png';
+    removeImg.src = 'assets/Lixeira.png';
     removeImg.alt = 'Remover';
     removeImg.classList.add('remove-icon');
 
@@ -115,7 +115,7 @@ function atualizarLista() {
     for (let i = 0; i < amigos.length; i++) {
         let li = document.createElement('li');
         let removeImg = document.createElement('img');
-        removeImg.src = 'assets/lixeira.png';
+        removeImg.src = 'assets/Lixeira.png';
         removeImg.alt = 'Remover';
         removeImg.classList.add('remove-icon');
         li.appendChild(removeImg);

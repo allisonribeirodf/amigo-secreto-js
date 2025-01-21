@@ -29,16 +29,15 @@ function adicionarAmigo() {
     }
 
     amigos.push(inputAmigo.value);
+    errorMessage.textContent = ""; // Limpa a mensagem de erro ao adicionar com sucesso
 
     let li = document.createElement('li');
-    
-  
     let removeImg = document.createElement('img');
     removeImg.src = 'assets/lixeira.png';
     removeImg.alt = 'Remover';
     removeImg.classList.add('remove-icon');
 
-    li.appendChild(removeImg); 
+    li.appendChild(removeImg);
     li.appendChild(document.createTextNode(inputAmigo.value));
 
     listaAmigos.appendChild(li);
@@ -66,8 +65,6 @@ function atualizarEstadoBotaoSortear() {
     if (amigos.length >= 2) {
         botaoSortear.disabled = false;
         errorMessage.textContent = '';
-    } else {
-        botaoSortear.disabled = true;
     }
 }
 
@@ -77,13 +74,11 @@ function sortearAmigo() {
 
     if (amigos.length === 0) {
         alert('A lista de amigos está vazia. Adicione pelo menos um amigo para sortear!');
-        resultado.innerHTML = '<p class="erro">⚠️ Adicione amigos à lista para iniciar o sorteio! ⚠️</p>';
         return;
     }
 
     if (amigos.length === 1) {
         alert('É necessário adicionar pelo menos dois amigos para realizar o sorteio!');
-        resultado.innerHTML = '<p class="erro">⚠️ É necessário pelo menos dois amigos para sortear! ⚠️</p>';
         return;
     }
 
@@ -113,26 +108,19 @@ document.addEventListener('DOMContentLoaded', function() {
     atualizarEstadoBotaoSortear();
 });
 
-// Atualizar a lista sempre que necessário
 function atualizarLista() {
     let listaAmigos = document.getElementById('listaAmigos');
-    listaAmigos.innerHTML = ''; // Limpa a lista antes de adicionar novos elementos
+    listaAmigos.innerHTML = '';
 
-    // Percorre o array 'amigos' e adiciona cada nome na lista HTML
     for (let i = 0; i < amigos.length; i++) {
         let li = document.createElement('li');
-
-        // Adicionar ícone de remoção antes do nome
         let removeImg = document.createElement('img');
         removeImg.src = 'assets/lixeira.png';
         removeImg.alt = 'Remover';
         removeImg.classList.add('remove-icon');
-        li.appendChild(removeImg);  // Coloca o ícone de remoção à esquerda
-
-        // Adiciona o nome do amigo depois do ícone
+        li.appendChild(removeImg);
         li.appendChild(document.createTextNode(amigos[i]));
 
-        // Evento para remover o amigo da lista
         removeImg.addEventListener('click', function() {
             removerAmigo(li);
         });

@@ -168,11 +168,16 @@ ul {
 }
 
 .result-list {
-    margin-top: 15px;
-    color: #15ff00;
-    font-size: 25px;
+    margin-top: 20px;
+    color: #ffffff; /* Cor branca para contraste com o fundo */
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
+    font-family: 'Inter', sans-serif; /* Fonte limpa e moderna */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efeito sutil de sombra no texto */
+    letter-spacing: 1px; /* Pequeno espaçamento entre letras */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
 }
 
 /* Botão de sortear título */

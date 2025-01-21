@@ -1,6 +1,6 @@
 # Amigo Secreto  🎉
 
-Um aplicativo interativo para sorteio de "Amigo Secreto". Adicione amigos, organize a lista e realize o sorteio diretamente do navegador.
+Um projeto interativo para sorteio de "Amigo Secreto". Adicione amigos, organize a lista e realize o sorteio diretamente do navegador.
 
 ## ✨ Funcionalidades
 

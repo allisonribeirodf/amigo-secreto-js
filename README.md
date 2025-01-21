@@ -7,7 +7,7 @@ Este projeto é um sorteador de nomes criado para facilitar a organização de u
 
 
 ## 🌐 Deploy
-🔗 
+🔗 https://amigo-secreto-js-hazel.vercel.app
 
 
 ## ✨ Funcionalidades
